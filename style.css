@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&family=Roboto:wght@500&display=swap');
+
+:root {
+    --oro: #fff;
+    --zero: #000;
+    --primeira: #393646;
+    --segunda: #4f4557;
+    --terceira: rgb(3, 201, 3);
+    --quarta: rgb(255, 0, 0);
+    --quinta:#F54848;
+}
+
+
+main {
+    background-image: url(./images/Sommer-Quinoabowl-scaled.jpeg);
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'roboto';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo a {
+    color: var(--oro);
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    margin: 30px;
+}
+
+.header .logo i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.cabecalho {
+    color: var(--oro);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.menu li {
+    margin: 30px;
+    padding: 10px;
+}
+
+.menu li:hover {
+    background-color: var(--oro);
+    color: var(--zero);
+    transition: 0.8s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.best h2 {
+    font-size: 66px;
+    display: flex;
+}
+
+.best h3{
+    white-space: nowrap;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.best {
+    margin: 100px;
+    color: var(--oro);
+    align-items: center;
+}
+
+.best i {
+    color: var(--quarta);
+    padding: 10px;
+}
+
+.best .star{
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.best .cook{
+    width: 500px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+.avaliacao img{
+    border-radius: 100%;
+    width: 70px;
+    height: 60px;
+}
+
+.avaliacao h2{
+    margin: 8px;
+    font-family: 'hanken grotesk';
+}
+
+.avaliacao {
+    color: var(--oro);
+    position: relative;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.avaliacao p{
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    font-size: 40px;
+}
+
+.avaliacao .tres{
+    opacity: 0.3;
+    border: var(--oro);
+}
+
+section .btn{
+    position: absolute;
+    left: 90px;
+    margin: 30px;
+    background-color: var(--quarta);
+    color: var(--oro);
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'roboto';
+    font-size: 15px;
+}
+
+section .btn:hover{
+    background-color: var(--quinta);
+}
+
+section .pratos{
+    width: 100vw;
+    height: 500px;
+}
+
+.redes{
+    color: var(--oro);
+    font-size: 20px;
+    position: absolute;
+    left: 130px;
+    bottom: 50px;
+}
+
+.redes i{
+    margin: 15px;
+}
+
+.redes i:hover{
+    color: var(--zero);
+}

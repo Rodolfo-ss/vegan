@@ -1,0 +1,135 @@
+@media screen and (max-width: 480px) {
+
+    .logo {
+        margin-left: -85px;
+        top: -20px;
+    }
+
+    .best .gren {
+        text-align: center;
+        font-size: 45px;
+        bottom: 170px;
+        width: 300px;
+        right: 60px;
+        line-height: 70px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .best .cinco {
+        display: none;
+    }
+
+    .best .star {
+        display: none;
+    }
+
+    .best .cook {
+        font-size: 20px;
+        width: 300px;
+        position: absolute;
+        top: -170px;
+        right: 50px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .avaliacao {
+        display: none;
+    }
+
+    .btn {
+        position: absolute;
+    }
+
+    .redes {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .logo {
+        position: relative;
+        left: 120px;
+    }
+
+    .best h2 {
+        position: relative;
+        bottom: 100px;
+        width: 450px;
+        right: 30px;
+    }
+
+    .cook {
+        position: relative;
+        top: 60px;
+    }
+
+    .best .cinco {
+        position: relative;
+        top: -80px;
+    }
+
+    .star {
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .best h2 {
+        position: relative;
+        bottom: 70px;
+    }
+
+    .best h3 {
+        position: relative;
+        bottom: 60px;
+    }
+
+    .star {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .best .cook {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .avaliacao {
+        position: relative;
+        bottom: 90px;
+    }
+
+    .btn {
+        position: absolute;
+        bottom: 60px;
+    }
+
+    .redes {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .avaliacao {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .btn {
+        position: absolute;
+        bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .avaliacao {
+        position: absolute;
+        bottom: 190px;
+    }
+}
